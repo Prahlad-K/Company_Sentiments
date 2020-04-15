@@ -9,7 +9,7 @@ from gym import spaces
 import matplotlib.pyplot as plt
 import pickle
 
-data_1 = pd.read_csv('/Users/karanwadhwani/Documents/4-1/RL/AdaptiveDDPG/Reinforcement-learning-for-portfolio-allocation/gym/envs/portfolio/Data_Daily_Stock_Dow_Jones_30/dow_jones_30_daily_price.csv')
+data_1 = pd.read_csv('dow_jones_30_daily_price.csv')
 
 equal_4711_list = list(data_1.tic.value_counts() == 4711)
 
